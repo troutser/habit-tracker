@@ -2,8 +2,6 @@
 
 A lightweight, always-on-top desktop habit tracker built with Tauri and React. Sits in the corner of your screen, tracks your streaks, and stays out of the way.
 
-![habit widget screenshot](screenshot.png)
-
 ## features
 
 - **Habit tracking** — click a habit to mark it done for today, click again to unmark
