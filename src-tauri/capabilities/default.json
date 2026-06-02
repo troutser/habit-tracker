@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schema.tauri.app/config/2/capability",
+	"identifier": "default",
+	"description": "Default capability for habit widget",
+	"windows": ["main"],
+	"permissions": [
+		"core:default",
+		"store:default",
+		"core:window:allow-start-dragging",
+		"core:window:allow-set-always-on-top",
+		"core:window:allow-set-size",
+		"store:default",
+		"dialog:default",
+		"fs:default",
+		"fs:allow-read-file",
+		{
+			"identifier": "fs:scope",
+			"allow": [{ "path": "**"}]
+		},
+		"core:window:allow-start-resize-dragging"
+	]
+}
